@@ -137,7 +137,7 @@ function sendMessage() {
     addMessageToChat(message, 'user');
     conversationHistory.push({ role: 'user', content: message });
     
-    // Clear input
+    // Clear input immediately
     input.value = '';
     
     // Show typing indicator
@@ -145,11 +145,17 @@ function sendMessage() {
     
     // Get AI response after a delay
     setTimeout(() => {
-        const response = getAIResponse(message);
-        hideTypingIndicator();
-        addMessageToChat(response, 'bot');
-        conversationHistory.push({ role: 'bot', content: response });
-    }, 1000 + Math.random() * 1000);
+        try {
+            const response = getAIResponse(message);
+            hideTypingIndicator();
+            addMessageToChat(response, 'bot');
+            conversationHistory.push({ role: 'bot', content: response });
+        } catch (error) {
+            console.error('AI Response Error:', error);
+            hideTypingIndicator();
+            addMessageToChat("I'm here to help! 📱 Book instantly: https://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577", 'bot');
+        }
+    }, 800 + Math.random() * 500);
 }
 
 // Add message to chat
@@ -302,10 +308,9 @@ function askQuickQuestion(question) {
     sendMessage();
 }
 
-// Appointment modal functions
+// Appointment modal functions - Redirect to Fresha
 function openAppointmentForm() {
-    document.getElementById('appointmentModal').style.display = 'block';
-    document.body.style.overflow = 'hidden';
+    window.open('https://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577', '_blank');
 }
 
 function closeAppointmentForm() {
