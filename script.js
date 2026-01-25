@@ -663,4 +663,21 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
+// Show About Us function
+function showAboutUs() {
+    const chatBody = document.getElementById('chatBody');
+    if (!chatBody) return;
+    
+    // Clear existing messages
+    chatBody.innerHTML = '';
+    
+    // Open the chat
+    document.getElementById('chatWidget').style.display = 'flex';
+    
+    // Add About Us message
+    const aboutMessage = `<strong>About Take Off Beauty Clinic</strong>\n\nWelcome to Take Off Beauty Clinic – Dubai's premier destination for advanced aesthetic treatments and transformative beauty solutions.\n\n<strong>Our Story</strong>\nFounded in the heart of Dubai, Take Off Beauty Clinic was established with a singular vision: to empower individuals to take off to their best selves through cutting-edge aesthetic treatments delivered with the highest standards of care and precision.\n\n<strong>Our Philosophy</strong>\nWe believe that beauty is not just skin deep – it's about confidence, wellness, and feeling extraordinary in your own skin. Our approach combines medical excellence with artistic sensibility, ensuring natural-looking results that enhance your unique beauty.\n\n<strong>World-Class Expertise</strong>\n• International board-certified aesthetic physicians\n• Advanced training in the latest aesthetic techniques\n• Over 227 specialized treatments and procedures\n• State-of-the-art technology and premium products\n\n<strong>Our Commitment</strong>\n• <strong>Safety First:</strong> Stringent medical protocols and sterile environments\n• <strong>Personalized Care:</strong> Customized treatment plans for each client\n• <strong>Natural Results:</strong> Subtle enhancements that honor your features\n• <strong>Transparent Pricing:</strong> Clear, competitive pricing with no hidden fees\n\n<strong>Award-Winning Services</strong>\nFrom injectable treatments and advanced fillers to HIFU skin tightening, body contouring, thread lifts, and regenerative PRP therapies – we offer the complete spectrum of non-surgical and minimally invasive aesthetic solutions.\n\n<strong>Our Location</strong>\n📍 Al Mezan Tower, Muhaisnah 4, Dubai, UAE\n📞 +971 45580501\n📱 WhatsApp: wa.me/971554047220\n\n<strong>Book Your Consultation</strong>\nReady to take off to your best self? Book online or chat with us now!\n\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577`;
+    
+    addMessageToChat(aboutMessage, 'bot');
+}
+
 console.log('Takeoff Beauty Clinic - AI Assistant Initialized ✨');
