@@ -26,7 +26,7 @@ const AI_RESPONSES = {
     },
     appointment: {
         keywords: ['appointment', 'book', 'schedule', 'available', 'when can', 'booking'],
-        response: "I'd be happy to help you schedule an appointment! You can:\n\n📱 **Book Online Now:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\n📞 **Or Call Us:**\n• Phone: 866.320.4573\n• Dubai Location: Al Mezan Tower, Muhaisnah 4\n\n⏰ **Quick Availability:**\nWe typically have same-week appointments available!\n\nWould you like help choosing the right treatment for you?"
+        response: "I'd be happy to help you schedule an appointment! You can:\n\n📱 **Book Online Now:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\n📞 **Or Call Us:**\n• Phone: +971 45580501\n• Dubai Location: Al Mezan Tower, Muhaisnah 4\n\n⏰ **Quick Availability:**\nWe typically have same-week appointments available!\n\nWould you like help choosing the right treatment for you?"
     },
     botox: {
         keywords: ['botox', 'wrinkle', 'lines', 'forehead', 'anti-wrinkle', 'allergan', 'dysport'],
@@ -74,11 +74,11 @@ const AI_RESPONSES = {
     },
     hours: {
         keywords: ['hours', 'open', 'close', 'when are you', 'time', 'working hours'],
-        response: "Our Clinic Hours:\n\n📍 **Take Off Beauty Clinic**\nAl Mezan Tower, Muhaisnah 4, Dubai\n\n⏰ **Operating Hours:**\nSun-Thu: 10:00 AM - 10:00 PM\nFri-Sat: 10:00 AM - 11:00 PM\n\n📱 **24/7 Online Booking:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\n📞 Call us: 866.320.4573"
+        response: "Our Clinic Hours:\n\n📍 **Take Off Beauty Clinic**\nAl Mezan Tower, Muhaisnah 4, Dubai\n\n⏰ **Operating Hours:**\nSun-Thu: 10:00 AM - 10:00 PM\nFri-Sat: 10:00 AM - 11:00 PM\n\n📱 **24/7 Online Booking:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\n📞 Call us: +971 45580501"
     },
     location: {
         keywords: ['location', 'where', 'address', 'directions', 'how to get', 'dubai'],
-        response: "📍 **Take Off Beauty Clinic Location:**\n\nAl Mezan Tower\nMuhaisnah, Muhaisnah 4\nDubai, UAE\n\n🚗 **Getting Here:**\nEasy access from Sheikh Mohammed Bin Zayed Road\nAmple parking available\n\n📞 **Contact:**\nPhone: 866.320.4573\nWhatsApp: Available\n\n📱 **Book Online:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\nNeed directions or want to book now?"
+        response: "📍 **Take Off Beauty Clinic Location:**\n\nAl Mezan Tower\nMuhaisnah, Muhaisnah 4\nDubai, UAE\n\n🚗 **Getting Here:**\nEasy access from Sheikh Mohammed Bin Zayed Road\nAmple parking available\n\n📞 **Contact:**\nPhone: +971 45580501\nWhatsApp: Available\n\n📱 **Book Online:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\nNeed directions or want to book now?"
     }
 };
 
@@ -256,10 +256,10 @@ function getAIResponse(userMessage) {
     
     // Handle consultation requests
     if (/consultation|consult|free|assessment/.test(lowercaseMessage)) {
-        return "📋 **FREE Consultation Available!**\n\nDuring your consultation, we'll:\n✅ Analyze your skin/body concerns\n✅ Discuss treatment options\n✅ Create personalized plan\n✅ Provide accurate pricing\n✅ Answer all questions\n✅ No pressure, just expert advice\n\n📍 **Available:**\n• In-Person at Al Mezan Tower, Muhaisnah 4, Dubai\n• Virtual Video Consultation\n• Same-day appointments often available!\n\n📱 **Book Your Free Consultation:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\n📞 Or call: 866.320.4573";
+        return "📋 **FREE Consultation Available!**\n\nDuring your consultation, we'll:\n✅ Analyze your skin/body concerns\n✅ Discuss treatment options\n✅ Create personalized plan\n✅ Provide accurate pricing\n✅ Answer all questions\n✅ No pressure, just expert advice\n\n📍 **Available:**\n• In-Person at Al Mezan Tower, Muhaisnah 4, Dubai\n• Virtual Video Consultation\n• Same-day appointments often available!\n\n📱 **Book Your Free Consultation:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\n📞 Or call: +971 45580501";
     }    
     // Default response with helpful suggestions
-    return "I'm here to help! I can answer questions about:\n\n• 💉 Fillers & Botox (we have 227 services!)\n• 🔥 HIFU & Endolift treatments\n• 🧬 PRP & Skin Boosters\n• 🧵 Thread Lifts\n• 💧 IV Drip Therapy\n• 🏥 Plastic Surgery\n\n📱 **Browse All Services & Book:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\n📞 Or call: 866.320.4573\n\nWhat treatment interests you?";
+    return "I'm here to help! I can answer questions about:\n\n• 💉 Fillers & Botox (we have 227 services!)\n• 🔥 HIFU & Endolift treatments\n• 🧬 PRP & Skin Boosters\n• 🧵 Thread Lifts\n• 💧 IV Drip Therapy\n• 🏥 Plastic Surgery\n\n📱 **Browse All Services & Book:**\nhttps://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577\n\n📞 Or call: +971 45580501\n\nWhat treatment interests you?";
 }
 
 // Search services database
@@ -372,7 +372,7 @@ function openMyChart() {
 
 // Call clinic function
 function callClinic() {
-    window.location.href = 'tel:8663204573';
+    window.location.href = 'tel:+971455805011';
 }
 
 // Mobile menu toggle
@@ -615,7 +615,7 @@ window.sendMessage = function() {
         setTimeout(() => {
             hideTypingIndicator();
             addMessageToChat(
-                "I'm truly sorry to hear about your experience. Your satisfaction is our top priority. \n\n📞 Please contact our patient care manager:\n• Call: 866.320.4573\n• WhatsApp: Available\n• Visit: Al Mezan Tower, Muhaisnah 4, Dubai\n\nWe're committed to making this right and ensuring your complete satisfaction.",
+                "I'm truly sorry to hear about your experience. Your satisfaction is our top priority. \n\n📞 Please contact our patient care manager:\n• Call: +971 45580501\n• WhatsApp: Available\n• Visit: Al Mezan Tower, Muhaisnah 4, Dubai\n\nWe're committed to making this right and ensuring your complete satisfaction.",
                 'bot'
             );
         }, 1000);
