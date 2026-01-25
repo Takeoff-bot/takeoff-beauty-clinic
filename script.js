@@ -171,8 +171,12 @@ function addMessageToChat(message, sender) {
     const content = document.createElement('div');
     content.className = 'message-content';
     
+    // Convert URLs to clickable links
+    const urlPattern = /(https?:\/\/[^\s]+)/g;
+    let formattedMessage = message.replace(urlPattern, '<a href="$1" target="_blank" style="color: #0066CC; text-decoration: underline;">$1</a>');
+    
     // Convert message to HTML (handle line breaks and lists)
-    const formattedMessage = message
+    formattedMessage = formattedMessage
         .replace(/\n\n/g, '</p><p>')
         .replace(/\n/g, '<br>');
     content.innerHTML = `<p>${formattedMessage}</p>`;
