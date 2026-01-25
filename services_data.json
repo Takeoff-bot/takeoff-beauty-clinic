@@ -1,0 +1,1565 @@
+{
+  "services": [
+    {
+      "name": "Filler 1ml",
+      "price": "AED 350.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "Filler offers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "Russian lips",
+      "price": "AED 350.00",
+      "duration": "1h",
+      "category": "Lip Fillers",
+      "description": "Filler offers",
+      "treatmentType": "Lip Fillers"
+    },
+    {
+      "name": "1ml filler + upper face botox",
+      "price": "AED 450.00",
+      "duration": "1h",
+      "category": "Men's Haircut",
+      "description": "Filler offers",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "Bratz lips (extra volume)",
+      "price": "AED 444.00",
+      "duration": "1h",
+      "category": "Skin Consultation",
+      "description": "Filler offers",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Allergan full face",
+      "price": "AED 700.00",
+      "duration": "30m",
+      "category": "Anti-Wrinkle Injections",
+      "description": "botox",
+      "treatmentType": "Anti-Wrinkle Injections"
+    },
+    {
+      "name": "messo botox (under eye)",
+      "price": "AED 500.00",
+      "duration": "1h",
+      "category": "Anti-Wrinkle Injections",
+      "description": "botox",
+      "treatmentType": "Anti-Wrinkle Injections"
+    },
+    {
+      "name": "masseter botox",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "botox",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "Botox + Meso",
+      "price": "AED 800.00",
+      "duration": "1h",
+      "category": "botox",
+      "description": "botox",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "MesoBotox (full face)",
+      "price": "AED 1,600.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "botox",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "Botox (upper face)",
+      "price": "AED 300.00",
+      "duration": "30m",
+      "category": "Anti-Wrinkle Injections",
+      "description": "botox",
+      "treatmentType": "Anti-Wrinkle Injections"
+    },
+    {
+      "name": "botox full face",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Anti-Wrinkle Injections",
+      "description": "botox",
+      "treatmentType": "Anti-Wrinkle Injections"
+    },
+    {
+      "name": "Botox under arms (anti sweat)",
+      "price": "AED 500.00",
+      "duration": "1h",
+      "category": "Skin Consultation",
+      "description": "botox",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Botox Shoulders",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "botox",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "Allergan Upper face",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "botox",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Dysport",
+      "price": "AED 800.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "botox",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Retouch - Free",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "filler",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "2ml fillers",
+      "price": "AED 550.00",
+      "duration": "40m",
+      "category": "Dermal Fillers",
+      "description": "filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "3ml fillers",
+      "price": "AED 800.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "4ml fillers",
+      "price": "AED 1,000.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "5ml fillers",
+      "price": "AED 1,300.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "6ml filler + free botox",
+      "price": "AED 1,500.00",
+      "duration": "1h",
+      "category": "Beard Trimming",
+      "description": "filler",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "8ml fillers + botox",
+      "price": "AED 2,000.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "10ml fillers + botox free",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "Jawline regular filler",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Skin Consultation",
+      "description": "filler",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Filler 3ml",
+      "price": "AED 750.00",
+      "duration": "1h",
+      "category": "Body Sculpting",
+      "description": "filler",
+      "treatmentType": "Body Sculpting"
+    },
+    {
+      "name": "Under eye filler",
+      "price": "AED 250.00",
+      "duration": "1h",
+      "category": "Skin Consultation",
+      "description": "filler",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Juvederm",
+      "price": "AED 900.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "European fillers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "Juvederm + Allergan",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "European fillers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "SkinFill Italian filler",
+      "price": "AED 900.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "European fillers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "BTH line Spanish filler",
+      "price": "AED 1,000.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "European fillers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "BTH line + Botox Upper face",
+      "price": "AED 650.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "European fillers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "BTH line 2ml + Botox Upper face (free)",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "European fillers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "Restylane",
+      "price": "AED 900.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "European fillers",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "6ml Revolax + Botox",
+      "price": "AED 3,000.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "European fillers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "2ml Filler 'Revolax'",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Hyperhidrosis Treatment",
+      "description": "European fillers",
+      "treatmentType": "Hyperhidrosis Treatment"
+    },
+    {
+      "name": "Revolax",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "European fillers",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "700 ml",
+      "price": "AED 4,500.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "butt vacuum",
+      "price": "AED 600.00",
+      "duration": "1h",
+      "category": "Beard Trimming",
+      "description": "Body filler",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "4 sessions Fat Inj",
+      "price": "AED 400.00",
+      "duration": "4h",
+      "category": "Body filler",
+      "description": "Body filler",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "Consultation body filler",
+      "price": "AED 0.00",
+      "duration": "1h",
+      "category": "Plastic Surgery",
+      "description": "Body filler",
+      "treatmentType": "Plastic Surgery"
+    },
+    {
+      "name": "Private area filler",
+      "price": "AED 2,000.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "100 ml",
+      "price": "AED 1,500.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "200 ml",
+      "price": "AED 2,000.00",
+      "duration": "1h",
+      "category": "Men's Haircut",
+      "description": "Body filler",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "300 ml",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "400 ml",
+      "price": "AED 3,500.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "500 ml",
+      "price": "AED 4,000.00",
+      "duration": "1h + 55m processing time after",
+      "category": "Dermal Fillers",
+      "description": "Maxifill Korean brand - Free consultation - Limited quantity",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "600ml",
+      "price": "AED 4,000.00",
+      "duration": "1h",
+      "category": "Beard Trimming",
+      "description": "Body filler",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "800 ml",
+      "price": "AED 6,000.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "1000 ml",
+      "price": "AED 7,000.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "1500 ml",
+      "price": "AED 10,000.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "2000 ml",
+      "price": "AED 14,000.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Body filler",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "Sculptra 5ml",
+      "price": "AED 900.00",
+      "duration": "30m",
+      "category": "Body Sculpting",
+      "description": "Sculptra",
+      "treatmentType": "Body Sculpting"
+    },
+    {
+      "name": "Sculptra 10 ml",
+      "price": "AED 1,500.00",
+      "duration": "30m",
+      "category": "Body Sculpting",
+      "description": "Sculptra",
+      "treatmentType": "Body Sculpting"
+    },
+    {
+      "name": "Sculptra body - From",
+      "price": "AED 3,000.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "Sculptra",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "Sculptra 5ml + Ejal40 + Salmon DNA under eyes",
+      "price": "AED 1,999.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Full Face Glam",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Sculptra 10ml + Ejal40 + Salmon DNA under eyes",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Full Face Glam",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "prp 3session",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "PRP Offers",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "PRP 5 sessions",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Mesotherapy",
+      "description": "PRP Offers",
+      "treatmentType": "Mesotherapy"
+    },
+    {
+      "name": "prp 5 session + 1 free",
+      "price": "AED 500.00",
+      "duration": "1h",
+      "category": "Facial",
+      "description": "PRP Offers",
+      "treatmentType": "Facial"
+    },
+    {
+      "name": "cell booster 1",
+      "price": "AED 200.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Cell booster",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "cell booster 3",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "Cell booster",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "Cell Booster + PRP 1",
+      "price": "AED 300.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Cell booster",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Cell Booster + PRP 3",
+      "price": "AED 600.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Cell booster",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Cell Booster + dermapen 1",
+      "price": "AED 300.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Cell booster",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Cell Booster + dermapen 3",
+      "price": "AED 650.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Cell booster",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Cell Booster + PRP + Dermapen 5 sessions buttocks & tights areas",
+      "price": "AED 5,500.00",
+      "duration": "1h",
+      "category": "Mesotherapy",
+      "description": "Cell booster",
+      "treatmentType": "Mesotherapy"
+    },
+    {
+      "name": "3 PRP + 3 Stem cellls",
+      "price": "AED 1,199.00",
+      "duration": "1h 30m",
+      "category": "prp",
+      "description": "prp",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "Silver",
+      "price": "AED 1,449.00",
+      "duration": "3h",
+      "category": "prp",
+      "description": "prp",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "prp paid 6th session",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "prp",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "prp paid 5th session",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "prp",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "prp paid 4th session",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "prp",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "prp paid 3rd session",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "Plastic Surgery",
+      "description": "prp",
+      "treatmentType": "Plastic Surgery"
+    },
+    {
+      "name": "prp paid 2nd session",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "IV Drip",
+      "description": "prp",
+      "treatmentType": "IV Drip"
+    },
+    {
+      "name": "prp paid before - Free",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "Plastic Surgery",
+      "description": "prp",
+      "treatmentType": "Plastic Surgery"
+    },
+    {
+      "name": "prp + biotin 3 sessions",
+      "price": "AED 350.00",
+      "duration": "30m",
+      "category": "Microdermabrasion",
+      "description": "prp",
+      "treatmentType": "Microdermabrasion"
+    },
+    {
+      "name": "prp + biotin + dermapen 6 sessions",
+      "price": "AED 1,000.00",
+      "duration": "30m",
+      "category": "Hair Transplants",
+      "description": "prp",
+      "treatmentType": "Hair Transplants"
+    },
+    {
+      "name": "PRF",
+      "price": "AED 299.00",
+      "duration": "30m",
+      "category": "Mesotherapy",
+      "description": "prp",
+      "treatmentType": "Mesotherapy"
+    },
+    {
+      "name": "Dermapen",
+      "price": "AED 100.00",
+      "duration": "30m",
+      "category": "Infrared Sauna",
+      "description": "Dermapen",
+      "treatmentType": "Infrared Sauna"
+    },
+    {
+      "name": "3 prp + 3 derma pen",
+      "price": "AED 400.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Dermapen",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "mesotherapy + dermapen",
+      "price": "AED 300.00",
+      "duration": "30m",
+      "category": "Dermaplaning",
+      "description": "Dermapen",
+      "treatmentType": "Dermaplaning"
+    },
+    {
+      "name": "prp+meso+dermapen",
+      "price": "AED 300.00",
+      "duration": "1h",
+      "category": "Skin Consultation",
+      "description": "Dermapen",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Salmon Dna under eyes",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Facial",
+      "description": "Skin bosters",
+      "treatmentType": "Facial"
+    },
+    {
+      "name": "Salmon DNA face",
+      "price": "AED 750.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "Skin bosters",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "Ejal40",
+      "price": "AED 700.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Skin bosters",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Skin Booster",
+      "price": "AED 200.00",
+      "duration": "30m",
+      "category": "Acupuncture",
+      "description": "Skin bosters",
+      "treatmentType": "Acupuncture"
+    },
+    {
+      "name": "Collagen",
+      "price": "AED 800.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Skin bosters",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Profhilo",
+      "price": "AED 800.00",
+      "duration": "30m",
+      "category": "Acupuncture",
+      "description": "Skin bosters",
+      "treatmentType": "Acupuncture"
+    },
+    {
+      "name": "4 sessions Fat dissolving injections",
+      "price": "AED 1,200.00",
+      "duration": "2h",
+      "category": "lipo injection",
+      "description": "3 ml per session",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "Lemon bottle",
+      "price": "AED 100.00",
+      "duration": "30m",
+      "category": "Fat Dissolving Injections",
+      "description": "lipo injection",
+      "treatmentType": "Fat Dissolving Injections"
+    },
+    {
+      "name": "Lemon bottle 10ml",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "lipo injection",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Aqualyx",
+      "price": "AED 35.00",
+      "duration": "30m",
+      "category": "Fat Dissolving Injections",
+      "description": "lipo injection",
+      "treatmentType": "Fat Dissolving Injections"
+    },
+    {
+      "name": "Aqualyx 10ml",
+      "price": "AED 300.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "lipo injection",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Hifu face",
+      "price": "AED 200.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Hifu",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Hifu neck + double chin",
+      "price": "AED 200.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Hifu",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Hifu face and neck",
+      "price": "AED 400.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Hifu",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Hifu full body",
+      "price": "AED 1,500.00",
+      "duration": "1h",
+      "category": "Skin Consultation",
+      "description": "Hifu",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Light: Double Chin 3 HIFU sessions + Lemon Bottle 5ml x 3 sessions (total 15ml)",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Hifu + Lemon Bottle",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Advanced: Double Chin 3 HIFU sessions + Lemon Bottle 5ml x 6 sessions (total 30ml)",
+      "price": "AED 1,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Hifu + Lemon Bottle",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Standard: Face & Neck 3 HIFU + Lemon Bottle 10ml x 3 sessions (total 30ml)",
+      "price": "AED 1,800.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Hifu + Lemon Bottle",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Intensive: Face & Neck 3 HIFU + Lemon Bottle 10ml x 6 sessions (total 60ml)",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Hifu + Lemon Bottle",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Arms 3x HIFU sessions + Lemon Bottle 20ml",
+      "price": "AED 1,900.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Hifu + Lemon Bottle",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Bronze",
+      "price": "AED 350.00",
+      "duration": "3h",
+      "category": "Endolift",
+      "description": "Endolift",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "Endolift offer - From",
+      "price": "AED 750.00",
+      "duration": "1h",
+      "category": "Skin Tightening",
+      "description": "Endolift",
+      "treatmentType": "Skin Tightening"
+    },
+    {
+      "name": "Endolift (3 area)",
+      "price": "AED 1,999.00",
+      "duration": "1h",
+      "category": "Skin Tightening",
+      "description": "Endolift",
+      "treatmentType": "Skin Tightening"
+    },
+    {
+      "name": "Endolift face and neck",
+      "price": "AED 1,500.00",
+      "duration": "1h",
+      "category": "Plastic Surgery",
+      "description": "Endolift",
+      "treatmentType": "Plastic Surgery"
+    },
+    {
+      "name": "Endolift Full Body",
+      "price": "AED 6,000.00",
+      "duration": "3h",
+      "category": "Non-Surgical Facelift",
+      "description": "Endolift",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Double chin Endolift + 3 Hifu",
+      "price": "AED 1,200.00",
+      "duration": "1h",
+      "category": "Thread Lift",
+      "description": "Endolift + 3 Hifu - 1 area",
+      "treatmentType": "Thread Lift"
+    },
+    {
+      "name": "Face (cheeks) + 3 Hifu",
+      "price": "AED 1,200.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Endolift + 3 Hifu - 1 area",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Back upper side Endolift + 3 Hifu",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Endolift + 3 Hifu - 1 area",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Back down part Endolift + 3 Hifu",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Endolift + 3 Hifu - 1 area",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Love handle front side Endolift + 3 Hifu",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Endolift + 3 Hifu - 1 area",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Outer tighs Endolift + 3 Hifu",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Endolift + 3 Hifu - 1 area",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Inner tighs Endolift + 3 Hifu",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Endolift + 3 Hifu - 1 area",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Abdomen lower part Endolift + 3 Hifu",
+      "price": "AED 2,500.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Endolift + 3 Hifu - 1 area",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "3 HIFU double chin + 10 threads",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Packages of Threads of Jawline",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "3 HIFU face & neck + 10 threads (double chin)",
+      "price": "AED 1,100.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Packages of Threads of Jawline",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Endolift double chin + 10 threads",
+      "price": "AED 1,200.00",
+      "duration": "1h",
+      "category": "Non-Surgical Facelift",
+      "description": "Packages of Threads of Jawline",
+      "treatmentType": "Non-Surgical Facelift"
+    },
+    {
+      "name": "Dimples",
+      "price": "AED 800.00",
+      "duration": "1h",
+      "category": "Men's Haircut",
+      "description": "Threads",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "2 threads",
+      "price": "AED 400.00",
+      "duration": "1h",
+      "category": "Skin Consultation",
+      "description": "Threads",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "4 threads",
+      "price": "AED 600.00",
+      "duration": "1h",
+      "category": "Thread Lift",
+      "description": "Threads",
+      "treatmentType": "Thread Lift"
+    },
+    {
+      "name": "6 threads",
+      "price": "AED 800.00",
+      "duration": "1h",
+      "category": "Dermal Fillers",
+      "description": "Threads",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "8 Threads",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Beard Trimming",
+      "description": "Threads",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "10 mono threads",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Thread Lift",
+      "description": "Threads",
+      "treatmentType": "Thread Lift"
+    },
+    {
+      "name": "20 mono threads",
+      "price": "AED 1,500.00",
+      "duration": "1h",
+      "category": "Thread Lift",
+      "description": "Threads",
+      "treatmentType": "Thread Lift"
+    },
+    {
+      "name": "30 threads",
+      "price": "AED 2,000.00",
+      "duration": "1h",
+      "category": "Thread Lift",
+      "description": "Threads",
+      "treatmentType": "Thread Lift"
+    },
+    {
+      "name": "Consultation Plastic surgery",
+      "price": "AED 0.00",
+      "duration": "1h",
+      "category": "Plastic Surgery",
+      "description": "Surgery",
+      "treatmentType": "Plastic Surgery"
+    },
+    {
+      "name": "Liposuction - From",
+      "price": "AED 15,000.00",
+      "duration": "1h",
+      "category": "Plastic Surgery",
+      "description": "Surgery",
+      "treatmentType": "Plastic Surgery"
+    },
+    {
+      "name": "Breast implants - From",
+      "price": "AED 15,000.00",
+      "duration": "1h",
+      "category": "Plastic Surgery",
+      "description": "Surgery",
+      "treatmentType": "Plastic Surgery"
+    },
+    {
+      "name": "Plastic surgery - From",
+      "price": "AED 25,000.00",
+      "duration": "1h",
+      "category": "Plastic Surgery",
+      "description": "Surgery",
+      "treatmentType": "Plastic Surgery"
+    },
+    {
+      "name": "Aloe Vera",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Djolis",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Sunscreen",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Djolis",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "procedure charge",
+      "price": "AED 50.00",
+      "duration": "1h",
+      "category": "Skin Tag Removal",
+      "description": "Skin",
+      "treatmentType": "Skin Tag Removal"
+    },
+    {
+      "name": "Gold",
+      "price": "AED 2,550.00",
+      "duration": "3h",
+      "category": "Skin",
+      "description": "Skin",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "Meso + Fractional",
+      "price": "AED 850.00",
+      "duration": "1h",
+      "category": "Skin",
+      "description": "Skin",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "Bandage",
+      "price": "AED 60.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Skin",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "derma consultation - Free",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "Dermatology",
+      "description": "Skin",
+      "treatmentType": "Dermatology"
+    },
+    {
+      "name": "British chemical peel",
+      "price": "AED 500.00",
+      "duration": "1h",
+      "category": "Chemical Peel",
+      "description": "Skin",
+      "treatmentType": "Chemical Peel"
+    },
+    {
+      "name": "exosome",
+      "price": "AED 800.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Skin",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Subcission",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Skin",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "iv drip paid - Free",
+      "price": "AED 0.00",
+      "duration": "30m",
+      "category": "IV Drip",
+      "description": "IV Drip",
+      "treatmentType": "IV Drip"
+    },
+    {
+      "name": "iv drip, 1 session",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Acne Facial",
+      "description": "IV Drip",
+      "treatmentType": "Acne Facial"
+    },
+    {
+      "name": "iv drip 3sessions",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "IV Drip",
+      "description": "IV Drip",
+      "treatmentType": "IV Drip"
+    },
+    {
+      "name": "iv drip 5 sessions",
+      "price": "AED 1,000.00",
+      "duration": "30m",
+      "category": "IV Drip",
+      "description": "IV Drip",
+      "treatmentType": "IV Drip"
+    },
+    {
+      "name": "iv drip, 6 sessions",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Acne Facial",
+      "description": "IV Drip",
+      "treatmentType": "Acne Facial"
+    },
+    {
+      "name": "iv drip 10 sessions",
+      "price": "AED 1,500.00",
+      "duration": "1h",
+      "category": "IV Drip",
+      "description": "IV Drip",
+      "treatmentType": "IV Drip"
+    },
+    {
+      "name": "Fractional 1 session",
+      "price": "AED 350.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "IV Drip",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "3 sessions fractional laser",
+      "price": "AED 500.00",
+      "duration": "1h",
+      "category": "Laser Lipo",
+      "description": "IV Drip",
+      "treatmentType": "Laser Lipo"
+    },
+    {
+      "name": "Tatto removal",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Tattooing",
+      "description": "IV Drip",
+      "treatmentType": "Tattooing"
+    },
+    {
+      "name": "Carbon laser",
+      "price": "AED 100.00",
+      "duration": "30m",
+      "category": "LED Light Therapy",
+      "description": "IV Drip",
+      "treatmentType": "LED Light Therapy"
+    },
+    {
+      "name": "GlamLift (face + under eyes + neck)",
+      "price": "AED 1,600.00",
+      "duration": "30m",
+      "category": "Dermal Fillers",
+      "description": "GlamLift",
+      "treatmentType": "Dermal Fillers"
+    },
+    {
+      "name": "under eye whitening",
+      "price": "AED 200.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Meso",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "mesotherapy",
+      "price": "AED 200.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Meso",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Meso 3 sessions",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Acupuncture",
+      "description": "Meso",
+      "treatmentType": "Acupuncture"
+    },
+    {
+      "name": "prp + mesotherapy",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Meso",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "3 prp + 3 meso",
+      "price": "AED 600.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Meso",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Filler dissolving",
+      "price": "AED 199.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "199 offer",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "chemical peel",
+      "price": "AED 199.00",
+      "duration": "30m",
+      "category": "Chemical Peel",
+      "description": "199 offer",
+      "treatmentType": "Chemical Peel"
+    },
+    {
+      "name": "botox 1 area",
+      "price": "AED 199.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "199 offer",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "prp",
+      "price": "AED 199.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "199 offer",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "prp + dermapen",
+      "price": "AED 199.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "199 offer",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Laser 3 areas",
+      "price": "AED 199.00",
+      "duration": "40m",
+      "category": "Beard Trimming",
+      "description": "199 offer",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "2ml lemon bottle",
+      "price": "AED 199.00",
+      "duration": "30m",
+      "category": "Fat Dissolving Injections",
+      "description": "199 offer",
+      "treatmentType": "Fat Dissolving Injections"
+    },
+    {
+      "name": "Hifu double-chin",
+      "price": "AED 199.00",
+      "duration": "30m",
+      "category": "Fat Dissolving Injections",
+      "description": "199 offer",
+      "treatmentType": "Fat Dissolving Injections"
+    },
+    {
+      "name": "Hydrafacial",
+      "price": "AED 100.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "Facials",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "fractional 6 session",
+      "price": "AED 1,000.00",
+      "duration": "30m",
+      "category": "Laser Hair Removal",
+      "description": "Small area laser",
+      "treatmentType": "Laser Hair Removal"
+    },
+    {
+      "name": "Laser 6 sessions small area",
+      "price": "AED 250.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Small area laser",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Laser 3 sessions small area",
+      "price": "AED 150.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Small area laser",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Half legs laser",
+      "price": "AED 85.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Small area laser",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Half hands laser",
+      "price": "AED 60.00",
+      "duration": "30m",
+      "category": "Laser Lipo",
+      "description": "Small area laser",
+      "treatmentType": "Laser Lipo"
+    },
+    {
+      "name": "Beard laser",
+      "price": "AED 70.00",
+      "duration": "30m",
+      "category": "Laser Lipo",
+      "description": "Small area laser",
+      "treatmentType": "Laser Lipo"
+    },
+    {
+      "name": "Face laser",
+      "price": "AED 65.00",
+      "duration": "30m",
+      "category": "Laser Hair Removal",
+      "description": "Small area laser",
+      "treatmentType": "Laser Hair Removal"
+    },
+    {
+      "name": "Underarm laser",
+      "price": "AED 70.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Small area laser",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "Laser medium area 3 sessions",
+      "price": "AED 210.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Medium area laser",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Back & Front laser",
+      "price": "AED 100.00",
+      "duration": "1h",
+      "category": "Beard Trimming",
+      "description": "Medium area laser",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Full legs laser",
+      "price": "AED 100.00",
+      "duration": "30m",
+      "category": "Beard Trimming",
+      "description": "Medium area laser",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Bikini laser",
+      "price": "AED 100.00",
+      "duration": "30m",
+      "category": "Skin Consultation",
+      "description": "Medium area laser",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "neck & shoulders laser",
+      "price": "AED 100.00",
+      "duration": "40m",
+      "category": "Beard Trimming",
+      "description": "Medium area laser",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Laser under arm 6 session",
+      "price": "AED 420.00",
+      "duration": "3h",
+      "category": "Large area laser",
+      "description": "Large area laser",
+      "treatmentType": "Inherited from services"
+    },
+    {
+      "name": "Full body laser",
+      "price": "AED 200.00",
+      "duration": "1h",
+      "category": "Laser Hair Removal",
+      "description": "Large area laser",
+      "treatmentType": "Laser Hair Removal"
+    },
+    {
+      "name": "Full body laser without front and back",
+      "price": "AED 175.00",
+      "duration": "1h",
+      "category": "Laser Hair Removal",
+      "description": "Large area laser",
+      "treatmentType": "Laser Hair Removal"
+    },
+    {
+      "name": "Fullbody laser 3sessions",
+      "price": "AED 500.00",
+      "duration": "1h",
+      "category": "Laser Hair Removal",
+      "description": "Large area laser",
+      "treatmentType": "Laser Hair Removal"
+    },
+    {
+      "name": "fullbody laser 6session",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Beard Trimming",
+      "description": "Large area laser",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Shaving",
+      "price": "AED 50.00",
+      "duration": "30m",
+      "category": "Hair Treatment",
+      "description": "Large area laser",
+      "treatmentType": "Hair Treatment"
+    },
+    {
+      "name": "laser paid before",
+      "price": "AED 0.00",
+      "duration": "1h",
+      "category": "Hyperhidrosis Treatment",
+      "description": "Large area laser",
+      "treatmentType": "Hyperhidrosis Treatment"
+    },
+    {
+      "name": "Glasses",
+      "price": "AED 80.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "Accesories",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "brow coloring",
+      "price": "AED 1,000.00",
+      "duration": "1h",
+      "category": "Hair Coloring",
+      "description": "Permanent Makeup",
+      "treatmentType": "Hair Coloring"
+    },
+    {
+      "name": "lip couloring",
+      "price": "AED 300.00",
+      "duration": "1h",
+      "category": "Skin Consultation",
+      "description": "Permanent Makeup",
+      "treatmentType": "Skin Consultation"
+    },
+    {
+      "name": "mask",
+      "price": "AED 35.00",
+      "duration": "25m",
+      "category": "Beard Trimming",
+      "description": "Masks",
+      "treatmentType": "Beard Trimming"
+    },
+    {
+      "name": "Blood Test",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "Balloon",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "Gastric Balloon Consultation",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Men's Haircut",
+      "description": "Balloon",
+      "treatmentType": "Men's Haircut"
+    },
+    {
+      "name": "Anti-hunger injection",
+      "price": "AED 500.00",
+      "duration": "30m",
+      "category": "Fat Freezing",
+      "description": "Balloon",
+      "treatmentType": "Fat Freezing"
+    }
+  ],
+  "totalServices": 227,
+  "categories": [
+    "Dermal Fillers",
+    "Lip Fillers",
+    "Anti-Wrinkle Injections",
+    "Body Sculpting",
+    "Body filler",
+    "Sculptra",
+    "Non-Surgical Facelift",
+    "PRP Offers",
+    "Cell booster",
+    "Mesotherapy",
+    "Skin bosters",
+    "Fat Dissolving Injections",
+    "Hifu",
+    "Endolift",
+    "Thread Lift",
+    "Threads",
+    "Plastic Surgery",
+    "Skin",
+    "Chemical Peel",
+    "Dermatology",
+    "IV Drip",
+    "Laser",
+    "Laser Hair Removal",
+    "Permanent Makeup",
+    "Balloon"
+  ],
+  "priceRange": {
+    "minimum": "AED 0.00",
+    "maximum": "AED 25,000.00"
+  },
+  "notes": "All services extracted from Takeoff Clinic service list PDF dated November 16, 2025. Prices are in AED (United Arab Emirates Dirham). Most services have 'No tax' designation. Duration ranges from 25 minutes to 4 hours. Services include dermal fillers, botox, body fillers, PRP treatments, laser procedures, and plastic surgery consultations."
+}

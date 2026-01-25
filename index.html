@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takeoff Beauty Clinic - We're here when you need us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Takeoff Beauty Clinic</h1>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#providers">Our Providers</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn-secondary" onclick="openMyChart()">MyChart</button>
+                    <button class="btn-primary" onclick="openAppointmentForm()">Book Appointment</button>
+                </div>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Take Off to Your Best Self — Dubai's Premier Beauty Destination</h2>
+                <p class="hero-subtitle">Expert injectable treatments, advanced aesthetics, and body contouring in the heart of Dubai. 227+ treatments to choose from.</p>
+                <div class="hero-actions">
+                    <button class="btn-primary-large" onclick="openAppointmentForm()">Schedule Appointment</button>
+                    <button class="btn-secondary-large" onclick="callClinic()">866.320.4573</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Access Cards -->
+    <section class="quick-access">
+        <div class="container">
+            <div class="cards-grid">
+                <div class="access-card">
+                    <div class="card-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="28" fill="#0066CC"/>
+                            <path d="M30 15L35 25H25L30 15Z M30 35C33.866 35 37 31.866 37 28C37 24.134 33.866 21 30 21C26.134 21 23 24.134 23 28C23 31.866 26.134 35 30 35Z M30 38C23.373 38 18 40.686 18 44V45H42V44C42 40.686 36.627 38 30 38Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>Find a Provider</h3>
+                    <p>Search by name, specialty, location and more.</p>
+                    <a href="#providers" class="card-link">Find a Provider →</a>
+                </div>
+
+                <div class="access-card">
+                    <div class="card-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="28" fill="#00A650"/>
+                            <path d="M30 15C21.716 15 15 21.716 15 30C15 38.284 21.716 45 30 45C38.284 45 45 38.284 45 30C45 21.716 38.284 15 30 15ZM30 20C32.761 20 35 22.239 35 25C35 27.761 32.761 30 30 30C27.239 30 25 27.761 25 25C25 22.239 27.239 20 30 20Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>Locations</h3>
+                    <p>Find any of our convenient locations near you.</p>
+                    <a href="#locations" class="card-link">Get Directions →</a>
+                </div>
+
+                <div class="access-card">
+                    <div class="card-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="28" fill="#7B5FA6"/>
+                            <path d="M25 18H35C36.105 18 37 18.895 37 20V40C37 41.105 36.105 42 35 42H25C23.895 42 23 41.105 23 40V20C23 18.895 23.895 18 25 18ZM30 38C31.105 38 32 37.105 32 36C32 34.895 31.105 34 30 34C28.895 34 28 34.895 28 36C28 37.105 28.895 38 30 38Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>Appointments</h3>
+                    <p>Get the in-person or virtual care you need.</p>
+                    <a href="#" class="card-link" onclick="openAppointmentForm()">Schedule Now →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Beauty Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💆</div>
+                    <h3>Skin Boosters & PRP</h3>
+                    <ul>
+                        <li>PRP Therapy (Hair & Face)</li>
+                        <li>Profhilo (AED 800)</li>
+                        <li>Salmon DNA Treatment</li>
+                        <li>Skin Booster (AED 200)</li>
+                        <li>Dermapen & Mesotherapy</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💉</div>
+                    <h3>Injectable Treatments</h3>
+                    <ul>
+                        <li>Botox from AED 300</li>
+                        <li>Dermal Fillers from AED 350</li>
+                        <li>Russian & Bratz Lips</li>
+                        <li>Juvederm & Restylane</li>
+                        <li>Jawline Enhancement</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>HIFU & Endolift</h3>
+                    <ul>
+                        <li>HIFU Face (AED 200)</li>
+                        <li>HIFU Face & Neck (AED 400)</li>
+                        <li>Endolift from AED 750</li>
+                        <li>Non-Surgical Facelift</li>
+                        <li>Skin Tightening</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🌟</div>
+                    <h3>Body Contouring</h3>
+                    <ul>
+                        <li>Body Fillers (100ml-2000ml)</li>
+                        <li>Fat Dissolving (Lemon Bottle)</li>
+                        <li>Sculptra Body Treatment</li>
+                        <li>HIFU Full Body (AED 1,500)</li>
+                        <li>Endolift Body Sculpting</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💅</div>
+                    <h3>Thread Lift & More</h3>
+                    <ul>
+                        <li>PDO Thread Lift (2-30 threads)</li>
+                        <li>Dimple Creation (AED 800)</li>
+                        <li>IV Drip Therapy</li>
+                        <li>Cell Booster Treatments</li>
+                        <li>Medical Consultations</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🧴</div>
+                    <h3>Advanced Treatments</h3>
+                    <ul>
+                        <li>Laser Hair Removal</li>
+                        <li>Fat Dissolving Injections</li>
+                        <li>Mesotherapy Face & Body</li>
+                        <li>Plastic Surgery Consults</li>
+                        <li>Premium European Fillers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Care Options Section -->
+    <section class="care-options">
+        <div class="container">
+            <div class="care-grid">
+                <div class="care-card">
+                    <div class="care-icon appointments">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <circle cx="40" cy="40" r="38" fill="#E8F4FD"/>
+                            <path d="M40 20C29.507 20 21 28.507 21 39C21 49.493 29.507 58 40 58C50.493 58 59 49.493 59 39C59 28.507 50.493 20 40 20ZM40 25C42.761 25 45 27.239 45 30C45 32.761 42.761 35 40 35C37.239 35 35 32.761 35 30C35 27.239 37.239 25 40 25Z" fill="#0066CC"/>
+                        </svg>
+                    </div>
+                    <h3>Get Care</h3>
+                    <p>Getting an appointment at Takeoff Beauty Clinic is easy. Schedule using any of these convenient options.</p>
+                    <ul class="care-links">
+                        <li><a href="tel:8663204573">866.320.4573</a></li>
+                        <li><a href="#" onclick="openAppointmentForm()">Appointment request form</a></li>
+                        <li><a href="#virtual">Virtual consultations</a></li>
+                        <li><a href="#express">Express Care visits</a></li>
+                        <li><a href="#second-opinion">Virtual second opinions</a></li>
+                    </ul>
+                </div>
+
+                <div class="care-card">
+                    <div class="care-icon health">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <circle cx="40" cy="40" r="38" fill="#E8F9F1"/>
+                            <path d="M40 25L45 35L55 35L47 42L50 52L40 45L30 52L33 42L25 35L35 35L40 25Z" fill="#00A650"/>
+                        </svg>
+                    </div>
+                    <h3>Live Healthier</h3>
+                    <p>Find health and wellness information to help you and your family look and feel better each day.</p>
+                    <ul class="care-links">
+                        <li><a href="#blog">Beauty news and trends</a></li>
+                        <li><a href="#newsletter">Sign up for our newsletter</a></li>
+                        <li><a href="#podcast">Tune in to our podcast</a></li>
+                        <li><a href="#nutrition">Nutrition & skincare tips</a></li>
+                        <li><a href="#wellness">Wellness programs</a></li>
+                    </ul>
+                </div>
+
+                <div class="care-card">
+                    <div class="care-icon help">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                            <circle cx="40" cy="40" r="38" fill="#FFF4E8"/>
+                            <path d="M40 20C29.507 20 21 28.507 21 39C21 49.493 29.507 58 40 58C50.493 58 59 49.493 59 39C59 28.507 50.493 20 40 20ZM40 50C38.343 50 37 48.657 37 47C37 45.343 38.343 44 40 44C41.657 44 43 45.343 43 47C43 48.657 41.657 50 40 50ZM43 39H37V28H43V39Z" fill="#FF8C00"/>
+                        </svg>
+                    </div>
+                    <h3>Need Help?</h3>
+                    <p>Have a question? We want to make it easy to find what you're looking for. Get answers online fast.</p>
+                    <ul class="care-links">
+                        <li><a href="tel:2164442200">216.444.2200</a></li>
+                        <li><a href="#visit">Visiting our clinic</a></li>
+                        <li><a href="#payment">Pay your bill online</a></li>
+                        <li><a href="#mychart">MyChart Portal</a></li>
+                        <li><a href="#records">Request medical records</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose Takeoff Beauty Clinic?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="28" fill="#E8F4FD"/>
+                            <path d="M30 15L35 25L45 26.5L37.5 34L39.5 44L30 39L20.5 44L22.5 34L15 26.5L25 25L30 15Z" fill="#0066CC"/>
+                        </svg>
+                    </div>
+                    <h3>Patient-Centered Care</h3>
+                    <p>We don't just care for your beauty needs. We care about you. That means our providers take the time to listen to what's important to you before recommending next steps.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="28" fill="#FFF4E8"/>
+                            <path d="M30 12L33 22H43L35 28L38 38L30 32L22 38L25 28L17 22H27L30 12Z" fill="#FF8C00"/>
+                        </svg>
+                    </div>
+                    <h3>Industry Recognition</h3>
+                    <p>Takeoff Beauty Clinic is recognized locally and nationally for its expertise and exceptional patient care in aesthetic medicine.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="28" fill="#E8F9F1"/>
+                            <path d="M20 25H40V30H20V25ZM25 32H35V37H25V32ZM22 39H38V44H22V39Z" fill="#00A650"/>
+                        </svg>
+                    </div>
+                    <h3>Expert Providers</h3>
+                    <p>You'll get care from board-certified and fellowship-trained experts who work together to create a treatment plan just for you.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                            <circle cx="30" cy="30" r="28" fill="#F3E8FD"/>
+                            <path d="M30 15C21.716 15 15 21.716 15 30C15 38.284 21.716 45 30 45C38.284 45 45 38.284 45 30C45 21.716 38.284 15 30 15ZM35 32L28 37V23L35 28V32Z" fill="#7B5FA6"/>
+                        </svg>
+                    </div>
+                    <h3>Innovation & Research</h3>
+                    <p>We're focused on today — and tomorrow. Our focus on the latest technology and techniques means you can find cutting-edge treatments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations" class="locations-section">
+        <div class="container">
+            <h2 class="section-title">Takeoff Beauty Clinic Locations</h2>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=400&h=300&fit=crop" alt="Dubai Main Clinic">
+                    <h3>Main Clinic - Dubai</h3>
+                    <p>Al Mezan Tower, Muhaisnah 4</p>
+                    <button class="btn-outline" onclick="window.open('https://maps.google.com/?q=Al+Mezan+Tower+Muhaisnah+4+Dubai')">Get Directions</button>
+                </div>
+
+                <div class="location-card">
+                    <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=400&h=300&fit=crop" alt="Virtual Consultations">
+                    <h3>Virtual Consultations</h3>
+                    <p>Available Worldwide</p>
+                    <button class="btn-outline" onclick="window.open('https://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577')">Book Virtual Visit</button>
+                </div>
+
+                <div class="location-card">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=300&fit=crop" alt="Online Booking">
+                    <h3>24/7 Online Booking</h3>
+                    <p>Book Anytime, Anywhere</p>
+                    <button class="btn-outline" onclick="window.open('https://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577')">Book Now</button>
+                </div>
+
+                <div class="location-card">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop" alt="Contact Us">
+                    <h3>Contact & Support</h3>
+                    <p>We're Here to Help</p>
+                    <button class="btn-outline" onclick="window.location.href='tel:8663204573'">Call: 866.320.4573</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Providers Section -->
+    <section id="providers" class="providers-section">
+        <div class="container">
+            <h2 class="section-title">Meet Our Expert Providers</h2>
+            <div class="providers-grid">
+                <div class="provider-card">
+                    <div class="provider-image">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop" alt="Dr. Sarah Johnson">
+                    </div>
+                    <h3>Dr. Sarah Johnson</h3>
+                    <p class="provider-title">Board-Certified Dermatologist</p>
+                    <p class="provider-specialty">Specialties: Medical & Cosmetic Dermatology</p>
+                    <button class="btn-outline">View Profile</button>
+                </div>
+
+                <div class="provider-card">
+                    <div class="provider-image">
+                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop" alt="Dr. Michael Chen">
+                    </div>
+                    <h3>Dr. Michael Chen</h3>
+                    <p class="provider-title">Aesthetic Medicine Specialist</p>
+                    <p class="provider-specialty">Specialties: Injectable Treatments, Laser Therapy</p>
+                    <button class="btn-outline">View Profile</button>
+                </div>
+
+                <div class="provider-card">
+                    <div class="provider-image">
+                        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=300&h=300&fit=crop" alt="Dr. Emily Rodriguez">
+                    </div>
+                    <h3>Dr. Emily Rodriguez</h3>
+                    <p class="provider-title">Cosmetic Surgeon</p>
+                    <p class="provider-specialty">Specialties: Facial Rejuvenation, Body Contouring</p>
+                    <button class="btn-outline">View Profile</button>
+                </div>
+
+                <div class="provider-card">
+                    <div class="provider-image">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&h=300&fit=crop" alt="Lisa Martinez">
+                    </div>
+                    <h3>Lisa Martinez</h3>
+                    <p class="provider-title">Licensed Aesthetician</p>
+                    <p class="provider-specialty">Specialties: Advanced Skincare, Chemical Peels</p>
+                    <button class="btn-outline">View Profile</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <h2 class="section-title">Takeoff Beauty Clinic News & More</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=250&fit=crop" alt="Latest skincare trends">
+                    <div class="news-content">
+                        <span class="news-category">Beauty Trends</span>
+                        <h3>Top Skincare Trends for 2026</h3>
+                        <p>Discover the latest innovations in aesthetic medicine and skincare treatments...</p>
+                        <a href="#" class="news-link">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1552693673-1bf958298935?w=400&h=250&fit=crop" alt="New laser technology">
+                    <div class="news-content">
+                        <span class="news-category">Technology</span>
+                        <h3>Introducing Our New Laser Technology</h3>
+                        <p>We're excited to announce the arrival of cutting-edge laser systems for superior results...</p>
+                        <a href="#" class="news-link">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=400&h=250&fit=crop" alt="Patient success story">
+                    <div class="news-content">
+                        <span class="news-category">Patient Stories</span>
+                        <h3>Real Results: Patient Success Stories</h3>
+                        <p>Read how our patients have transformed their confidence with our treatments...</p>
+                        <a href="#" class="news-link">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Actions</h4>
+                    <ul>
+                        <li><a href="#appointments">Appointments & Access</a></li>
+                        <li><a href="#insurance">Accepted Insurance</a></li>
+                        <li><a href="#events">Events Calendar</a></li>
+                        <li><a href="#financial">Financial Assistance</a></li>
+                        <li><a href="#payment">Pay Your Bill Online</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Blog, News & Apps</h4>
+                    <ul>
+                        <li><a href="#consult">Consult</a></li>
+                        <li><a href="#health">Health Essentials</a></li>
+                        <li><a href="#newsroom">Newsroom</a></li>
+                        <li><a href="#mychart">MyChart</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>About Takeoff Beauty Clinic</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#quality">Quality & Patient Safety</a></li>
+                        <li><a href="#experience">Patient Experience</a></li>
+                        <li><a href="#research">Research & Innovations</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <p>Appointments: <a href="tel:8663204573">866.320.4573</a></p>
+                    <p>Questions: <a href="tel:2164442200">216.444.2200</a></p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="white"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" stroke-width="2"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"/>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Al Mezan Tower, Muhaisnah 4, Dubai, UAE | <a href="tel:8663204573">866.320.4573</a> | &copy; 2026 Take Off Beauty Clinic. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#terms">Terms of Use</a>
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#notice">Notice of Privacy Practices</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Appointment Modal -->
+    <div id="appointmentModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAppointmentForm()">&times;</span>
+            <h2>Request an Appointment</h2>
+            <form id="appointmentForm" onsubmit="handleAppointmentSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Service Interested In *</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="facial">Facial Treatments</option>
+                        <option value="injectable">Injectable Treatments</option>
+                        <option value="laser">Laser & Light Therapy</option>
+                        <option value="body">Body Contouring</option>
+                        <option value="medical">Medical Aesthetics</option>
+                        <option value="skincare">Skincare Treatments</option>
+                        <option value="consultation">General Consultation</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Notes</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                
+                <button type="submit" class="btn-primary">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- AI Chatbot -->
+    <div id="chatbot" class="chatbot">
+        <div class="chatbot-header" onclick="toggleChat()">
+            <div class="chatbot-header-content">
+                <div class="chatbot-avatar">🤖</div>
+                <div>
+                    <h4>AI Beauty Assistant</h4>
+                    <span class="chatbot-status">Online</span>
+                </div>
+            </div>
+            <button class="chatbot-toggle" id="chatToggle">
+                <span class="chevron">▼</span>
+            </button>
+        </div>
+        
+        <div class="chatbot-body" id="chatbotBody">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content">
+                        <p>Hello! Welcome to <strong>Take Off Beauty Clinic Dubai</strong> 🌟</p>
+                        <p>I'm your AI Beauty Assistant. I can help you with:</p>
+                        <ul>
+                            <li>💉 Treatment information & pricing</li>
+                            <li>📅 Booking appointments</li>
+                            <li>💰 Package deals & offers</li>
+                            <li>💬 Answering your beauty questions</li>
+                        </ul>
+                        <p><strong>📱 Book Online Now:</strong><br>
+                        <a href="https://www.fresha.com/book-now/confident-k2us4vvg/all-offer?share=true&pId=724577" target="_blank" style="color: #0066CC; font-weight: 600;">Click here to view all services & book instantly</a></p>
+                        <p>How can I assist you today? 😊</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input-container">
+                <input 
+                    type="text" 
+                    id="chatInput" 
+                    class="chat-input" 
+                    placeholder="Type your message..."
+                    onkeypress="handleChatKeyPress(event)"
+                >
+                <button class="chat-send-btn" onclick="sendMessage()">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 10L18 2L10 18L8 11L2 10Z"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="quick-questions">
+                <button class="quick-btn" onclick="askQuickQuestion('What are your most popular treatments?')">Popular treatments</button>
+                <button class="quick-btn" onclick="askQuickQuestion('Russian lips pricing')">Russian lips</button>
+                <button class="quick-btn" onclick="askQuickQuestion('Book appointment')">Book now</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

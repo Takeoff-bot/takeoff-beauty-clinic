@@ -1,0 +1,13 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# PDF files (large)
+*.pdf
+pdf_*.txt
+extract_pdf.*
+parse_pdf.ps1
+
+# Temp files
+*.tmp
+*.log

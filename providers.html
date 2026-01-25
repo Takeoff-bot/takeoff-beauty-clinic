@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Providers - Takeoff Beauty Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .providers-hero {
+            background: linear-gradient(135deg, #00A650 0%, #0066CC 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .providers-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .provider-detail-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 2rem;
+        }
+
+        .provider-photo {
+            width: 250px;
+            height: 300px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .provider-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .provider-info h3 {
+            color: #0066CC;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .provider-credentials {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .specialties {
+            margin: 1.5rem 0;
+        }
+
+        .specialties h4 {
+            color: #333;
+            margin-bottom: 0.8rem;
+        }
+
+        .specialty-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .specialty-tag {
+            background: #E8F4FD;
+            color: #0066CC;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .bio {
+            margin: 1.5rem 0;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .provider-detail-card {
+                grid-template-columns: 1fr;
+            }
+
+            .provider-photo {
+                width: 100%;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="index.html" style="color: inherit; text-decoration: none;">Takeoff Beauty Clinic</a></h1>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="providers.html">Our Providers</a></li>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn-secondary" onclick="window.location.href='index.html'">Home</button>
+                    <button class="btn-primary" onclick="openAppointmentForm()">Book Appointment</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="providers-hero">
+        <div class="container">
+            <h1>Meet Our Expert Providers</h1>
+            <p>Board-certified specialists dedicated to your beauty and wellness</p>
+        </div>
+    </section>
+
+    <section style="padding: 4rem 0; background: #f8f9fa;">
+        <div class="container">
+            <div class="provider-detail-card">
+                <div class="provider-photo">
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=400&fit=crop" alt="Dr. Sarah Johnson">
+                </div>
+                <div class="provider-info">
+                    <h3>Dr. Sarah Johnson, MD</h3>
+                    <p class="provider-credentials">Board-Certified Dermatologist | Fellowship in Cosmetic Dermatology</p>
+                    
+                    <div class="specialties">
+                        <h4>Specialties</h4>
+                        <div class="specialty-tags">
+                            <span class="specialty-tag">Medical Dermatology</span>
+                            <span class="specialty-tag">Cosmetic Dermatology</span>
+                            <span class="specialty-tag">Injectable Treatments</span>
+                            <span class="specialty-tag">Laser Therapy</span>
+                        </div>
+                    </div>
+
+                    <div class="bio">
+                        <h4>About Dr. Johnson</h4>
+                        <p>Dr. Sarah Johnson brings over 15 years of experience in medical and cosmetic dermatology. She completed her medical degree at Johns Hopkins University and her dermatology residency at Stanford Medical Center. Dr. Johnson specializes in advanced injectable techniques and laser treatments, helping patients achieve natural-looking results.</p>
+                        <p>She's passionate about patient education and takes time to understand each patient's unique goals and concerns.</p>
+                    </div>
+
+                    <button class="btn-primary" onclick="openAppointmentForm()">Book with Dr. Johnson</button>
+                </div>
+            </div>
+
+            <div class="provider-detail-card">
+                <div class="provider-photo">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=400&fit=crop" alt="Dr. Michael Chen">
+                </div>
+                <div class="provider-info">
+                    <h3>Dr. Michael Chen, DO</h3>
+                    <p class="provider-credentials">Aesthetic Medicine Specialist | Advanced Injectable Certification</p>
+                    
+                    <div class="specialties">
+                        <h4>Specialties</h4>
+                        <div class="specialty-tags">
+                            <span class="specialty-tag">Botox & Dysport</span>
+                            <span class="specialty-tag">Dermal Fillers</span>
+                            <span class="specialty-tag">PDO Threads</span>
+                            <span class="specialty-tag">PRP Therapy</span>
+                        </div>
+                    </div>
+
+                    <div class="bio">
+                        <h4>About Dr. Chen</h4>
+                        <p>Dr. Michael Chen is a leading expert in non-surgical facial rejuvenation with over 12 years of experience. He trained at prestigious institutions including Mayo Clinic and has advanced certifications in aesthetic medicine. Dr. Chen is known for his artistic eye and ability to create subtle, natural enhancements.</p>
+                        <p>His patients appreciate his gentle technique and comprehensive approach to facial aesthetics.</p>
+                    </div>
+
+                    <button class="btn-primary" onclick="openAppointmentForm()">Book with Dr. Chen</button>
+                </div>
+            </div>
+
+            <div class="provider-detail-card">
+                <div class="provider-photo">
+                    <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=300&h=400&fit=crop" alt="Dr. Emily Rodriguez">
+                </div>
+                <div class="provider-info">
+                    <h3>Dr. Emily Rodriguez, MD, FACS</h3>
+                    <p class="provider-credentials">Board-Certified Cosmetic Surgeon | Fellow, American College of Surgeons</p>
+                    
+                    <div class="specialties">
+                        <h4>Specialties</h4>
+                        <div class="specialty-tags">
+                            <span class="specialty-tag">Facial Rejuvenation</span>
+                            <span class="specialty-tag">Body Contouring</span>
+                            <span class="specialty-tag">Non-Surgical Procedures</span>
+                            <span class="specialty-tag">Scar Revision</span>
+                        </div>
+                    </div>
+
+                    <div class="bio">
+                        <h4>About Dr. Rodriguez</h4>
+                        <p>Dr. Emily Rodriguez is a double board-certified cosmetic surgeon with 18 years of experience. She completed her surgical training at UCLA and has been recognized nationally for her expertise in facial aesthetics and body contouring. Dr. Rodriguez combines surgical precision with an artistic approach to help patients achieve their aesthetic goals.</p>
+                        <p>She's committed to using the latest techniques to ensure optimal results with minimal downtime.</p>
+                    </div>
+
+                    <button class="btn-primary" onclick="openAppointmentForm()">Book with Dr. Rodriguez</button>
+                </div>
+            </div>
+
+            <div class="provider-detail-card">
+                <div class="provider-photo">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&h=400&fit=crop" alt="Lisa Martinez">
+                </div>
+                <div class="provider-info">
+                    <h3>Lisa Martinez, LE</h3>
+                    <p class="provider-credentials">Licensed Master Aesthetician | Advanced Skincare Specialist</p>
+                    
+                    <div class="specialties">
+                        <h4>Specialties</h4>
+                        <div class="specialty-tags">
+                            <span class="specialty-tag">HydraFacial</span>
+                            <span class="specialty-tag">Chemical Peels</span>
+                            <span class="specialty-tag">Microneedling</span>
+                            <span class="specialty-tag">Custom Skincare</span>
+                        </div>
+                    </div>
+
+                    <div class="bio">
+                        <h4>About Lisa</h4>
+                        <p>Lisa Martinez is a licensed master aesthetician with over 10 years of experience in advanced skincare treatments. She's certified in multiple modalities including HydraFacial, chemical peels, and microneedling. Lisa's holistic approach combines clinical expertise with a deep understanding of skin health and wellness.</p>
+                        <p>Her clients love her personalized treatment plans and commitment to long-term skin health.</p>
+                    </div>
+
+                    <button class="btn-primary" onclick="openAppointmentForm()">Book with Lisa</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Modal (same as index.html) -->
+    <div id="appointmentModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeAppointmentForm()">&times;</span>
+            <h2>Request an Appointment</h2>
+            <form id="appointmentForm" onsubmit="handleAppointmentSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Service Interested In *</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="facial">Facial Treatments</option>
+                        <option value="injectable">Injectable Treatments</option>
+                        <option value="laser">Laser & Light Therapy</option>
+                        <option value="body">Body Contouring</option>
+                        <option value="medical">Medical Aesthetics</option>
+                        <option value="skincare">Skincare Treatments</option>
+                        <option value="consultation">General Consultation</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Notes</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                
+                <button type="submit" class="btn-primary">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

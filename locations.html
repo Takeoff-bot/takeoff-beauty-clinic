@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Locations - Takeoff Beauty Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .locations-hero {
+            background: linear-gradient(135deg, #7B5FA6 0%, #0066CC 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .locations-hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .location-detail {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .location-detail h3 {
+            color: #0066CC;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .location-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .info-block h4 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-block p, .info-block ul {
+            color: #666;
+        }
+
+        .map-placeholder {
+            width: 100%;
+            height: 300px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            margin: 1.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="index.html" style="color: inherit; text-decoration: none;">Takeoff Beauty Clinic</a></h1>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="providers.html">Our Providers</a></li>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn-secondary" onclick="window.location.href='index.html'">Home</button>
+                    <button class="btn-primary" onclick="openAppointmentForm()">Book Appointment</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="locations-hero">
+        <div class="container">
+            <h1>Our Locations</h1>
+            <p>Find a Takeoff Beauty Clinic near you</p>
+        </div>
+    </section>
+
+    <section style="padding: 4rem 0;">
+        <div class="container">
+            <div class="location-detail">
+                <h3>🏢 Main Campus - Downtown Medical District</h3>
+                <div class="map-placeholder">
+                    📍 Interactive Map Here
+                </div>
+                <div class="location-info">
+                    <div class="info-block">
+                        <h4>Address</h4>
+                        <p>123 Beauty Boulevard<br>Medical District<br>City, State 12345</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Hours</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li>Mon-Fri: 8:00 AM - 7:00 PM</li>
+                            <li>Saturday: 9:00 AM - 5:00 PM</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                    <div class="info-block">
+                        <h4>Contact</h4>
+                        <p>Phone: <a href="tel:8663204573">866.320.4573</a><br>
+                        Email: main@takeoffbeauty.com</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Services Available</h4>
+                        <p>All treatments available<br>Full surgical suite<br>Advanced laser center</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="location-detail">
+                <h3>🌆 West Side Location - Suburban Beauty Center</h3>
+                <div class="map-placeholder">
+                    📍 Interactive Map Here
+                </div>
+                <div class="location-info">
+                    <div class="info-block">
+                        <h4>Address</h4>
+                        <p>456 Wellness Way<br>Westside Plaza<br>City, State 12346</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Hours</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li>Mon-Fri: 9:00 AM - 6:00 PM</li>
+                            <li>Saturday: 10:00 AM - 4:00 PM</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                    <div class="info-block">
+                        <h4>Contact</h4>
+                        <p>Phone: <a href="tel:8663204574">866.320.4574</a><br>
+                        Email: west@takeoffbeauty.com</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Services Available</h4>
+                        <p>Injectable treatments<br>Laser services<br>Facial treatments</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="location-detail">
+                <h3>🏙️ East Side Location - Premium Spa & Clinic</h3>
+                <div class="map-placeholder">
+                    📍 Interactive Map Here
+                </div>
+                <div class="location-info">
+                    <div class="info-block">
+                        <h4>Address</h4>
+                        <p>789 Aesthetic Avenue<br>Premium Tower, Suite 200<br>City, State 12347</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Hours</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li>Mon-Fri: 9:00 AM - 6:00 PM</li>
+                            <li>Saturday: 10:00 AM - 4:00 PM</li>
+                            <li>Sunday: By appointment</li>
+                        </ul>
+                    </div>
+                    <div class="info-block">
+                        <h4>Contact</h4>
+                        <p>Phone: <a href="tel:8663204575">866.320.4575</a><br>
+                        Email: east@takeoffbeauty.com</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Services Available</h4>
+                        <p>Full spa services<br>Body contouring<br>Wellness programs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
