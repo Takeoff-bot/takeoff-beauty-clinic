@@ -28,9 +28,15 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 24px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 16px;
+    }
 }
 
 /* Header Styles */
@@ -1031,6 +1037,14 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .cards-grid,
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
 @media (max-width: 968px) {
     .nav {
         display: none;
@@ -1040,12 +1054,18 @@ body {
         display: flex;
     }
 
+    .hero {
+        padding: 3rem 0;
+    }
+
     .hero-title {
-        font-size: 2.2rem;
+        font-size: 2rem;
+        line-height: 1.2;
     }
 
     .hero-subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin: 1rem 0 1.5rem;
     }
 
     .cards-grid,
@@ -1054,45 +1074,73 @@ body {
     .locations-grid,
     .providers-grid {
         grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
     }
 
     .chatbot {
         width: calc(100% - 40px);
         right: 20px;
         left: 20px;
+        max-height: 500px;
     }
 
     .footer-bottom {
         flex-direction: column;
         text-align: center;
+        gap: 0.5rem;
     }
 
     .footer-legal {
         flex-direction: column;
         gap: 0.5rem;
     }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 }
 
 @media (max-width: 640px) {
+    .hero {
+        padding: 2rem 0;
+    }
+
     .hero-title {
-        font-size: 1.8rem;
+        font-size: 1.75rem;
     }
 
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .hero-actions {
         flex-direction: column;
+        width: 100%;
+        gap: 0.75rem;
     }
 
     .btn-primary-large,
     .btn-secondary-large {
         width: 100%;
+        font-size: 1rem;
+        padding: 0.875rem 1.5rem;
     }
 
     .section-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
+    }
+
+    .header {
+        padding: 0.75rem 0;
+    }
+
+    .logo h1 {
+        font-size: 1.25rem;
     }
 
     .header-actions {
@@ -1100,10 +1148,11 @@ body {
     }
 
     .whatsapp-btn {
-        bottom: 10px;
+        bottom: 80px;
         right: 10px;
         width: 50px;
         height: 50px;
+        z-index: 1499;
     }
 
     .whatsapp-btn svg {
@@ -1112,10 +1161,41 @@ body {
     }
 
     .chatbot {
-        bottom: 70px;
+        bottom: 10px;
         right: 10px;
         left: 10px;
         width: calc(100% - 20px);
+        max-height: 70vh;
+    }
+
+    .chatbot-body {
+        max-height: calc(70vh - 150px);
+    }
+
+    .quick-actions {
+        gap: 0.5rem;
+        padding: 0.75rem;
+    }
+
+    .quick-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.85rem;
+    }
+
+    .card,
+    .service-card,
+    .location-card {
+        padding: 1.25rem;
+    }
+
+    .care-options-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 1rem;
+        padding: 1.5rem;
     }
 }
 
