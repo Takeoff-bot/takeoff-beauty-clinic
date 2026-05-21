@@ -7,7 +7,8 @@ This repository is configured to deploy the static site to GitHub Pages with a c
 - `CNAME` contains `takeoffbeautyclinic.com`.
 - `.github/workflows/deploy.yml` runs on every push to `main`.
 - It prepares only the website files and uploads them as a GitHub Pages artifact.
-- `actions/deploy-pages@v1` publishes that artifact to GitHub Pages.
+- `actions/upload-pages-artifact@v3` uploads the artifact.
+- `actions/deploy-pages@v4` publishes that artifact to GitHub Pages.
 
 ## Steps to publish
 
