@@ -6,8 +6,8 @@ This repository is configured to deploy the static site to GitHub Pages with a c
 
 - `CNAME` contains `takeoffbeautyclinic.com`.
 - `.github/workflows/deploy.yml` runs on every push to `main`.
-- It uses `peaceiris/actions-gh-pages@v4` to publish the repo root to the `gh-pages` branch.
-- GitHub Pages should serve the site from the `gh-pages` branch with the custom domain.
+- It prepares only the website files and uploads them as a GitHub Pages artifact.
+- `actions/deploy-pages@v1` publishes that artifact to GitHub Pages.
 
 ## Steps to publish
 
@@ -21,22 +21,28 @@ This repository is configured to deploy the static site to GitHub Pages with a c
 
 2. Wait for the GitHub Actions workflow to complete.
 
-3. In your GitHub repository settings, enable Pages from the `gh-pages` branch.
+3. Confirm GitHub Pages is configured to deploy from GitHub Actions in repository settings.
 
-4. Set the custom domain to `takeoffbeautyclinic.com` if GitHub does not do it automatically.
+4. Ensure the custom domain is set to `takeoffbeautyclinic.com`.
 
 ## DNS
 
-Set a DNS A record for `takeoffbeautyclinic.com` to GitHub Pages:
+For the apex domain `takeoffbeautyclinic.com`, add the following A records at your DNS provider:
 
 - `@` → `185.199.108.153`
 - `@` → `185.199.109.153`
 - `@` → `185.199.110.153`
 - `@` → `185.199.111.153`
 
-If you also want `www.takeoffbeautyclinic.com`, add a CNAME:
+If you want `www.takeoffbeautyclinic.com`, also add:
 
 - `www` → `takeoffbeautyclinic.com`
+
+## Notes
+
+- This workflow publishes only the website assets, not repository docs or scripts.
+- Current local tests on this machine may resolve `takeoffbeautyclinic.com` to `127.0.0.1` because of a local hosts entry.
+- If the custom domain still does not load publicly, the most likely cause is missing DNS records for `takeoffbeautyclinic.com`.
 
 ## Verification
 

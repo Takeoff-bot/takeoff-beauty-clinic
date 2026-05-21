@@ -12,10 +12,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Prepare pages content
+        run: |
+          mkdir -p site
+          cp index.html locations.html providers.html robots.txt script.js services_data.json sitemap.xml styles.css googleee0cd8344157e8f0.html CNAME site/
+
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: .
+          path: site
 
   deploy:
     needs: build
@@ -23,6 +28,11 @@ jobs:
     steps:
       - name: Download pages artifact
         uses: actions/download-pages-artifact@v1
+
+      - name: Move pages content into workspace root
+        run: |
+          mv site/* .
+          rm -rf site
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
