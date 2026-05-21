@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://takeoff-bot.github.io/takeoff-beauty-clinic/sitemap.xml
+Sitemap: https://takeoffbeautyclinic.com/sitemap.xml
 
 # Allow Google to crawl everything
 User-agent: Googlebot

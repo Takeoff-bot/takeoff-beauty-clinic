@@ -72,7 +72,7 @@ You can customize:
 
 For questions or support, contact Takeoff Beauty Clinic:
 - Phone: 866.320.4573
-- Email: info@takeoffbeautyclinic.com
+- Email: info@takebeautyclinic.com
 
 ---
 
