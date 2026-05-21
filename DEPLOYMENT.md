@@ -9,6 +9,7 @@ This repository is configured to deploy the static site to GitHub Pages with a c
 - It prepares only the website files and uploads them as a GitHub Pages artifact.
 - `actions/upload-pages-artifact@v3` uploads the artifact.
 - `actions/deploy-pages@v4` publishes that artifact to GitHub Pages.
+- The workflow requires `GITHUB_TOKEN` permissions: `contents: read`, `pages: write`, and `id-token: write`.
 
 ## Steps to publish
 
