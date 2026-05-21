@@ -6,24 +6,23 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          persist-credentials: true
-          fetch-depth: 0
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download pages artifact
+        uses: actions/download-pages-artifact@v1
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          publish_branch: gh-pages
-          cname: takeoffbeautyclinic.com
-          user_name: github-actions
-          user_email: github-actions@github.com
-          allow_empty_commit: true
+        uses: actions/deploy-pages@v1
