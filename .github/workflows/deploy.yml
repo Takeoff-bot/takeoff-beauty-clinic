@@ -8,17 +8,22 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: true
           fetch-depth: 0
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
           publish_branch: gh-pages
           cname: takeoffbeautyclinic.com
+          user_name: github-actions
+          user_email: github-actions@github.com
+          allow_empty_commit: true
