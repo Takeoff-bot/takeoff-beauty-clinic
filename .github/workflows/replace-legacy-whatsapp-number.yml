@@ -1,0 +1,67 @@
+name: Replace legacy WhatsApp number
+
+on:
+  push:
+    paths:
+      - '.github/workflows/replace-legacy-whatsapp-number.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Replace legacy clinic contact number
+        shell: python
+        run: |
+          from pathlib import Path
+
+          old_local = "05" + "54047220"
+          new_local = "0523288478"
+          old_intl = "+971" + old_local[1:]
+          new_intl = "+971" + new_local[1:]
+          old_wa = old_intl.replace("+", "")
+          new_wa = new_intl.replace("+", "")
+          old_display = "+971 55 404 7220"
+          new_display = "+971 52 328 8478"
+
+          replacements = [
+              (old_display, new_display),
+              (old_intl, new_intl),
+              (old_wa, new_wa),
+              (old_local, new_local),
+          ]
+          excluded = {Path('.github/workflows/replace-legacy-whatsapp-number.yml')}
+          changed = []
+          for path in Path('.').rglob('*'):
+              if not path.is_file() or path in excluded or '.git' in path.parts:
+                  continue
+              try:
+                  data = path.read_text(encoding='utf-8')
+              except (UnicodeDecodeError, OSError):
+                  continue
+              updated = data
+              for old, new in replacements:
+                  updated = updated.replace(old, new)
+              if updated != data:
+                  path.write_text(updated, encoding='utf-8')
+                  changed.append(str(path))
+          print('Updated files:')
+          print('\n'.join(changed) if changed else 'none')
+      - name: Commit replacement
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No replacements needed."
+            exit 0
+          fi
+          git config user.name "Takeoff Website Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Replace 7220 with new WhatsApp number"
+          git push
